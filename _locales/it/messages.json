@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "ZotFile",
+    "description": "Name of the extension"
+  },
+  "extensionDescription": {
+    "message": "Advanced PDF management for Zotero",
+    "description": "Description of the extension"
+  }
+}
