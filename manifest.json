@@ -1,0 +1,45 @@
+{
+  "manifest_version": 2,
+  "name": "ZotFile",
+  "version": "5.1.4",
+  "description": "Advanced PDF management for Zotero",
+  "author": "Joscha Legewie",
+  "homepage_url": "http://www.zotfile.com",
+  "icons": {
+    "48": "icon.png",
+    "96": "icon@2x.png"
+  },
+  "applications": {
+    "zotero": {
+      "id": "zotfile@columbia.edu",
+      "strict_min_version": "5.0.0",
+      "strict_max_version": "7.0.*"
+    }
+  },
+  "options_ui": {
+    "page": "options.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "update_url": "https://raw.githubusercontent.com/jlegewie/zotfile/master/zotfile-update.json",
+  "default_locale": "en",
+  "locales": {
+    "en": {
+      "name": "ZotFile",
+      "description": "Advanced PDF management for Zotero"
+    },
+    "de": {
+      "name": "ZotFile",
+      "description": "Zotero Plug-in zur Verwaltung Ihrer Anhänge"
+    },
+    "fr": {
+      "name": "ZotFile",
+      "description": "Un module complémentaire de Zotero pour gérer vos pièces jointes"
+    },
+    "it": {
+      "name": "ZotFile",
+      "description": "Un plugin di Zotero per gestire i tuoi allegati"
+    }
+  }
+}
